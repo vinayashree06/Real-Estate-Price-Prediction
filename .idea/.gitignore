@@ -1,0 +1,41 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+# Ignore Python files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore environment files
+.env
+*.env
+venv/
+*.venv
+
+# Ignore dataset (if large)
+data/
+*.csv
+*.xlsx
+*.json
+
+# Ignore model files (if large)
+*.h5
+*.pkl
+*.model
+saved_models/
+
+# Ignore frontend dependencies (if using React)
+node_modules/
+dist/
+build/
+
+# Ignore logs & system files
+*.log
+.DS_Store
+Thumbs.db
+
